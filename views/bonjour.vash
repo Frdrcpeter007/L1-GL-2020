@@ -1,0 +1,6 @@
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    <h4>Fichier Bonjour</h4>
+    <p>Bonjour @model.nom</p>
+  })
+})
